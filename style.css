@@ -1,0 +1,101 @@
+/* Basic styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333; /* Dark grey text */
+    background-color: #f8f8f8; /* Light grey background for a clean look */
+    background-image: url("vibrant-coral-reef-bustling-with-marine-life_36682-2122.jpg"); /* Replace with your image path */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  a {
+    color: #1e88e5; /* Blue color for links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Underline links on hover */
+    color: #007bff; /* Darker blue on hover for better contrast */
+  }
+  
+  header {
+    text-align: center;
+    background-color: #fff; /* White background for the header */
+    padding: 15px 0; /* Add some padding top and bottom */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for a layered effect */
+  }
+  
+  h1 {
+    font-size: 2.2rem; /* Slightly larger heading */
+    margin-bottom: 10px;
+    /* Add animation for h1 */
+    animation: fadeInUp 2s ease-in-out; /* Animation name, duration, timing function */
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Start from invisible and slightly up */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Animate to full opacity and original position */
+    }
+  }
+  
+  h2 {
+    font-size: 1.6rem; /* Adjust subheading size */
+    margin-bottom: 15px;
+    color: #666; /* Lighter grey for headings for better hierarchy */
+  }
+  
+  p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  figure {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  img {
+    width: 100%; /* Responsive image - scales to fit container */
+    max-width: 800px; /* Adjust max-width for larger screens (consider Amazon's image sizes) */
+    height: auto;  /* Maintain aspect ratio */
+    border-radius: 5px; /* Add subtle rounded corners for images */
+    transition: opacity 0.3s ease-in-out; /* Add hover effect for opacity */
+  }
+  
+  img:hover {
+    opacity: 0.8; /* Reduce opacity slightly on hover */
+  }
+  
+  figcaption {
+    font-style: italic;
+    font-size: 0.8em; /* Reduce caption font size slightly */
+    text-align: center;
+    margin-top: 5px; /* Add some space above the caption */
+  }
+  
+  main {
+    padding-top: 20px; /* Add some padding at the top of the main content */
+  }
+  
+  section {
+    margin-bottom: 40px; /* Add some space between sections */
+    padding: 20px; /* Add some padding to sections for better separation */
+    border-bottom: 1px solid #eee; /* Add a subtle border to separate sections */
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #eee; /* Light grey background for the footer */
+  }
+  
